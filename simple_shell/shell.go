@@ -21,6 +21,8 @@ func main() {
 
 		if strings.Compare("hi", text) == 0 {
 			fmt.Println("Hello, Justin")
+		} else if strings.Compare("exit", text) == 0 {
+			break
 		}
 	}
 }
